@@ -1,0 +1,97 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+  }
+
+
+.nav-links{
+   display: flex;
+   list-style: none;
+  }
+
+.nav-item a{
+    display: inline-block;
+    padding: 18px 15px;
+    text-decoration: none;
+    color: rgb(30, 19, 82);
+    font-family: Montserrat;
+}
+
+.nav-item a:hover{
+    border-bottom: 3px solid rgb(20, 0, 109);
+    text-underline-offset: 2px;
+
+}
+
+nav .nav-links {
+    align-self: left;
+}
+
+nav image {
+    align-self: center;
+}
+
+input{
+    all: unset;
+    font: 16px Montserrat;
+    height: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder{
+    color: black;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+form{
+    align-items: center;
+}
+
+.jumbotron {
+     display: flex;
+      align-items: center;
+      justify-content: center;
+      height:100%;
+  }
+
+.jumbotron h1{
+    font-family: Montserrat;
+    font-size: 50px;
+    color: white;
+}
+
+#hero {
+    background-image: url("./close-up-vinyl-record-black-background_23-2147889973.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 75vh;
+}
+
+.card1 img{
+    float: left;
+    height: 400px;
+
+}
+
+div h2{
+    font-size: 30x;
+    align-items: center;
+}
+
+.card1 {
+    height:400px;
+    align-items: center;
+    justify-content: center;
+}
